@@ -7,12 +7,11 @@ import { addIcons } from 'ionicons';
 import { caretDownCircle } from 'ionicons/icons';
 
 @Component({
-  selector: 'app-privacy',
-  templateUrl: './privacy.page.html',
-  styleUrls: ['./privacy.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ IonTitle, IonItem, IonLabel,  CommonModule, FormsModule, TranslatePipe, IonAccordionGroup, IonAccordion ]
+    selector: 'app-privacy',
+    templateUrl: './privacy.page.html',
+    styleUrls: ['./privacy.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonTitle, IonItem, IonLabel, CommonModule, FormsModule, TranslatePipe, IonAccordionGroup, IonAccordion]
 })
 export default class PrivacyPage {
 

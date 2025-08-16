@@ -14,13 +14,11 @@ import { ResultModalComponent } from '../components/result-modal/result-modal.co
 import { RealtimeDatabaseService } from 'src/app/shared/services/realtime-database.service';
 
 @Component({
-  selector: 'game-layout',
-  templateUrl: './game-layout.page.html',
-  styleUrls: ['./game-layout.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  
-  imports: [IonLabel, IonRow, IonCol, IonHeader, IonToolbar, CommonModule, FormsModule, IonImg, RouterModule, IonContent, IonButtons, IonButton, TranslatePipe, GameBoardDamasComponent, UserCardComponent]
+    selector: 'game-layout',
+    templateUrl: './game-layout.page.html',
+    styleUrls: ['./game-layout.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonLabel, IonRow, IonCol, IonHeader, IonToolbar, CommonModule, FormsModule, IonImg, RouterModule, IonContent, IonButtons, IonButton, TranslatePipe, GameBoardDamasComponent, UserCardComponent]
 })
 export default class GameLayoutPage implements OnInit{
 

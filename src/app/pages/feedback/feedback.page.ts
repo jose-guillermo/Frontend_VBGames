@@ -9,12 +9,11 @@ import { ToastService } from 'src/app/shared/services/toast.service';
 import { Response } from 'src/app/shared/Interfaces/response.interface';
 
 @Component({
-  selector: 'app-feedback',
-  templateUrl: './feedback.page.html',
-  styleUrls: ['./feedback.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [IonRadioGroup, IonInput, IonCardContent, IonCardHeader, IonCardSubtitle, IonCard, IonCardTitle, IonTextarea, IonButton, TranslatePipe, CommonModule, FormsModule, ReactiveFormsModule, IonRadio, IonLoading]
+    selector: 'app-feedback',
+    templateUrl: './feedback.page.html',
+    styleUrls: ['./feedback.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonRadioGroup, IonInput, IonCardContent, IonCardHeader, IonCardSubtitle, IonCard, IonCardTitle, IonTextarea, IonButton, TranslatePipe, CommonModule, FormsModule, ReactiveFormsModule, IonRadio, IonLoading]
 })
 export default class FeedbackPage {
 

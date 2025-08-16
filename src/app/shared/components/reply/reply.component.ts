@@ -7,13 +7,11 @@ import { Response } from '../../Interfaces/response.interface';
 import { ToastService } from '../../services/toast.service';
 
 @Component({
-  selector: 'reply',
-  templateUrl: './reply.component.html',
-  styleUrls: ['./reply.component.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, IonButtons, IonButton, IonInput, IonTextarea, TranslatePipe, IonLoading, ReactiveFormsModule],
-  
+    selector: 'reply',
+    templateUrl: './reply.component.html',
+    styleUrls: ['./reply.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonContent, IonHeader, IonTitle, IonToolbar, IonButtons, IonButton, IonInput, IonTextarea, TranslatePipe, IonLoading, ReactiveFormsModule]
 })
 export class ReplyComponent {
 

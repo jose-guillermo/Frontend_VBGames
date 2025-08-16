@@ -7,12 +7,11 @@ import { DownloadButtonComponent } from "../shared/components/download-button/do
 import { SideMenuComponent } from "../shared/components/side-menu/side-menu.component";
 
 @Component({
-  selector: 'app-layout',
-  templateUrl: './layout.page.html',
-  styleUrls: ['./layout.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ IonContent, FooterComponent, RouterModule, HeaderComponent, DownloadButtonComponent, SideMenuComponent],
+    selector: 'app-layout',
+    templateUrl: './layout.page.html',
+    styleUrls: ['./layout.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonContent, FooterComponent, RouterModule, HeaderComponent, DownloadButtonComponent, SideMenuComponent]
 })
 export default class  LagoutPage {
 

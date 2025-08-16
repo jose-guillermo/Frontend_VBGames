@@ -14,12 +14,11 @@ import { MessagesService } from '../../services/backend/messages.service';
 import { UserCardComponent } from '../user-card/user-card.component';
 
 @Component({
-  selector: 'shared-component-menu',
-  styleUrls: ['./menu.component.scss'],
-  templateUrl: './menu.component.html',
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [IonBadge,  IonIcon,  IonButton, IonButtons, IonicStorageModule, IonSelect, IonSelectOption, TranslatePipe, RouterModule, IonMenuButton, UserCardComponent ],
+    selector: 'shared-component-menu',
+    styleUrls: ['./menu.component.scss'],
+    templateUrl: './menu.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonBadge, IonIcon, IonButton, IonButtons, IonicStorageModule, IonSelect, IonSelectOption, TranslatePipe, RouterModule, IonMenuButton, UserCardComponent]
 })
 export class MenuComponent {
 

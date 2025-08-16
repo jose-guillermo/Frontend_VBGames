@@ -6,12 +6,11 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { UserService } from '../../services/backend/user.service';
 
 @Component({
-  selector: 'shared-component-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [IonButtons,  IonButton, IonLabel, IonFooter, IonToolbar, RouterModule, TranslatePipe ],
+    selector: 'shared-component-footer',
+    templateUrl: './footer.component.html',
+    styleUrls: ['./footer.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonButtons, IonButton, IonLabel, IonFooter, IonToolbar, RouterModule, TranslatePipe]
 })
 export class FooterComponent {
   private userService = inject(UserService);

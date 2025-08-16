@@ -11,13 +11,11 @@ import { CloudinaryService } from 'src/app/shared/services/backend/cloudinary.se
 import { ToastService } from 'src/app/shared/services/toast.service';
 
 @Component({
-  selector: 'add-product',
-  templateUrl: './add-product.page.html',
-  styleUrls: ['./add-product.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ IonTitle ,IonImg, IonRow, IonCol, IonButton, IonInput, CommonModule, FormsModule, TranslatePipe, ReactiveFormsModule, IonLoading, IonSelect, IonSelectOption, IonRadio, IonRadioGroup, IonLabel ]
-  
+    selector: 'add-product',
+    templateUrl: './add-product.page.html',
+    styleUrls: ['./add-product.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonTitle, IonImg, IonRow, IonCol, IonButton, IonInput, CommonModule, FormsModule, TranslatePipe, ReactiveFormsModule, IonLoading, IonSelect, IonSelectOption, IonRadio, IonRadioGroup, IonLabel]
 })
 export default class AddProductPage implements OnInit{
 

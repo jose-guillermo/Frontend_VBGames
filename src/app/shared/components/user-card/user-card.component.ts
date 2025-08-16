@@ -20,12 +20,11 @@ export function createGameTranslateLoader(http: HttpClient, game: string) {
   return new TranslateHttpLoader(http, `./assets/i18n/${game}/`, '.json');
 }
 @Component({
-  selector: 'shared-component-user-card',
-  templateUrl: './user-card.component.html',
-  styleUrls: ['./user-card.component.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ IonItem, IonImg, IonAvatar, IonCard, IonLabel, ImagePipe, TranslateModule, TranslateModule ],
+    selector: 'shared-component-user-card',
+    templateUrl: './user-card.component.html',
+    styleUrls: ['./user-card.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonItem, IonImg, IonAvatar, IonCard, IonLabel, ImagePipe, TranslateModule, TranslateModule]
 })
 export class UserCardComponent{
 

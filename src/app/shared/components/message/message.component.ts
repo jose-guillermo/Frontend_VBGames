@@ -13,12 +13,11 @@ import { RouterModule } from '@angular/router';
 import { ReplyComponent } from '../reply/reply.component';
 
 @Component({
-  selector: 'app-message',
-  templateUrl: './message.component.html',
-  styleUrls: ['./message.component.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [IonIcon, IonCardContent, IonCardHeader, IonCard, IonContent, IonButton, IonButtons, IonToolbar, IonHeader, IonTitle, TranslatePipe, DatePipe, RouterModule],
+    selector: 'app-message',
+    templateUrl: './message.component.html',
+    styleUrls: ['./message.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonIcon, IonCardContent, IonCardHeader, IonCard, IonContent, IonButton, IonButtons, IonToolbar, IonHeader, IonTitle, TranslatePipe, DatePipe, RouterModule]
 })
 export class MessageComponent{
 

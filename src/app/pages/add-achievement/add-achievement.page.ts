@@ -12,13 +12,11 @@ import { ToastService } from 'src/app/shared/services/toast.service';
 import { AchievementService } from 'src/app/shared/services/backend/achievement.service';
 
 @Component({
-  selector: 'add-product',
-  templateUrl: './add-achievement.page.html',
-  styleUrls: ['./add-achievement.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ IonTitle ,IonRow, IonCol, IonButton, IonInput, CommonModule, FormsModule, TranslatePipe, ReactiveFormsModule, IonLoading, IonSelect, IonSelectOption ]
-  
+    selector: 'add-product',
+    templateUrl: './add-achievement.page.html',
+    styleUrls: ['./add-achievement.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonTitle, IonRow, IonCol, IonButton, IonInput, CommonModule, FormsModule, TranslatePipe, ReactiveFormsModule, IonLoading, IonSelect, IonSelectOption]
 })
 export default class AddAchievementPage implements OnInit {
 

@@ -12,13 +12,12 @@ import { ImagePipe } from 'src/app/shared/pipes/image.pipe';
 register()
 
 @Component({
-  selector: 'shop',
-  templateUrl: './shop.page.html',
-  styleUrls: ['./shop.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
-  imports: [ CommonModule, FormsModule, IonRow, IonCardHeader, IonCol, IonCard, IonCardTitle, IonCardContent, IonButton, ImagePipe ]
+    selector: 'shop',
+    templateUrl: './shop.page.html',
+    styleUrls: ['./shop.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    imports: [CommonModule, FormsModule, IonRow, IonCardHeader, IonCol, IonCard, IonCardTitle, IonCardContent, IonButton, ImagePipe]
 })
 export default class ShopPage {
 

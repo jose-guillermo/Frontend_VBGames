@@ -16,12 +16,11 @@ import { Response } from 'src/app/shared/Interfaces/response.interface';
 import { ToastService } from '../../shared/services/toast.service';
 
 @Component({
-  selector: 'app-signup',
-  templateUrl: './signup.page.html',
-  styleUrls: ['./signup.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ IonTitle ,IonIcon, IonChip, IonImg, IonAvatar, IonRow, IonCol, IonButton, IonInput, CommonModule, FormsModule, TranslatePipe, ReactiveFormsModule, IonLoading, IonItem, IonLabel ]
+    selector: 'app-signup',
+    templateUrl: './signup.page.html',
+    styleUrls: ['./signup.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonTitle, IonIcon, IonChip, IonImg, IonAvatar, IonRow, IonCol, IonButton, IonInput, CommonModule, FormsModule, TranslatePipe, ReactiveFormsModule, IonLoading, IonItem, IonLabel]
 })
 export default class SignupPage{
 

@@ -15,15 +15,12 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 register();
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
-
-  imports: [IonButton, RouterModule, ImagePipe, TranslatePipe ],
+    selector: 'app-home',
+    templateUrl: 'home.page.html',
+    styleUrls: ['home.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    imports: [IonButton, RouterModule, ImagePipe, TranslatePipe]
 })
 export default class HomePage implements OnInit {
 

@@ -18,12 +18,11 @@ import { GamesService } from 'src/app/shared/services/backend/game.service';
 
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.page.html',
-  styleUrls: ['./login.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ IonCard, IonCardTitle, IonCardHeader, IonIcon, IonCardContent, IonButton, CommonModule, ReactiveFormsModule, IonInput, TranslatePipe, RouterModule, IonLoading, IonLabel, IonItem ]
+    selector: 'app-login',
+    templateUrl: './login.page.html',
+    styleUrls: ['./login.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonCard, IonCardTitle, IonCardHeader, IonIcon, IonCardContent, IonButton, CommonModule, ReactiveFormsModule, IonInput, TranslatePipe, RouterModule, IonLoading, IonLabel, IonItem]
 })
 export default class LoginPage {
   @ViewChild('.item-inner', { static: false }) dynamicElement: any = null;

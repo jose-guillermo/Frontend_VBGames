@@ -7,11 +7,10 @@ import { GamesService } from './shared/services/backend/game.service';
 import { ProductService } from './shared/services/backend/product.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: 'app.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [IonApp, IonRouterOutlet],
+    selector: 'app-root',
+    templateUrl: 'app.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonApp, IonRouterOutlet]
 })
 export class AppComponent {
 

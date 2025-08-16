@@ -13,12 +13,11 @@ import { AnimationService } from '../../shared/services/animation.service';
 import { UserService } from 'src/app/shared/services/backend/user.service';
 
 @Component({
-  selector: 'app-messages',
-  templateUrl: './messages.page.html',
-  styleUrls: ['./messages.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [IonIcon, IonButton, IonItem, IonList, IonLabel,  CommonModule, FormsModule, TranslatePipe, IonTitle, IonSegment, IonSegmentButton]
+    selector: 'app-messages',
+    templateUrl: './messages.page.html',
+    styleUrls: ['./messages.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonIcon, IonButton, IonItem, IonList, IonLabel, CommonModule, FormsModule, TranslatePipe, IonTitle, IonSegment, IonSegmentButton]
 })
 export default class MessagesPage implements OnInit {
 

@@ -14,12 +14,11 @@ import { trashBin } from 'ionicons/icons';
 import { FilePicker } from '@capawesome/capacitor-file-picker';
 
 @Component({
-  selector: 'add-game',
-  templateUrl: './add-game.page.html',
-  styleUrls: ['./add-game.page.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ IonTitle ,IonImg ,IonLoading ,TranslatePipe, CommonModule, FormsModule, ReactiveFormsModule, IonInput, IonRow, IonCol, IonButton, IonList, IonLabel, IonItem, IonIcon]
+    selector: 'add-game',
+    templateUrl: './add-game.page.html',
+    styleUrls: ['./add-game.page.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonTitle, IonImg, IonLoading, TranslatePipe, CommonModule, FormsModule, ReactiveFormsModule, IonInput, IonRow, IonCol, IonButton, IonList, IonLabel, IonItem, IonIcon]
 })
 export default class AddGamePage implements OnInit {
 

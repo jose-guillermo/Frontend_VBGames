@@ -11,12 +11,11 @@ import { DataLocalService } from '../../services/data-local.service';
 import { ToastService } from '../../services/toast.service';
 
 @Component({
-  selector: 'shared-component-download-button',
-  templateUrl: './download-button.component.html',
-  styleUrls: ['./download-button.component.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [IonToast,  IonButton, TranslatePipe ],
+    selector: 'shared-component-download-button',
+    templateUrl: './download-button.component.html',
+    styleUrls: ['./download-button.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonToast, IonButton, TranslatePipe]
 })
 export class DownloadButtonComponent  implements OnInit, OnDestroy {
 

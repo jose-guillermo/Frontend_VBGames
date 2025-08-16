@@ -16,14 +16,11 @@ type Cell = {
 };
 
 @Component({
-  selector: 'game-board-damas',
-  templateUrl: './game-board-damas.component.html',
-  styleUrls: ['./game-board-damas.component.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  
-  imports: [ ImagePipe ],
-  
+    selector: 'game-board-damas',
+    templateUrl: './game-board-damas.component.html',
+    styleUrls: ['./game-board-damas.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [ImagePipe]
 })
 export class GameBoardDamasComponent{
 

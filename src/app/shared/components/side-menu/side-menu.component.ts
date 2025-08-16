@@ -11,12 +11,11 @@ import { Message, User } from '../../Interfaces/response.interface';
 import { UserCardComponent } from '../user-card/user-card.component';
 
 @Component({
-  selector: 'shared-component-side-menu',
-  templateUrl: './side-menu.component.html',
-  styleUrls: ['./side-menu.component.scss'],
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ IonItem, IonTitle, IonToolbar, IonHeader,  IonContent, IonMenu, IonMenuToggle, TranslatePipe, RouterModule, UserCardComponent, IonBadge, IonFooter ],
+    selector: 'shared-component-side-menu',
+    templateUrl: './side-menu.component.html',
+    styleUrls: ['./side-menu.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [IonItem, IonTitle, IonToolbar, IonHeader, IonContent, IonMenu, IonMenuToggle, TranslatePipe, RouterModule, UserCardComponent, IonBadge, IonFooter]
 })
 export class SideMenuComponent {
 

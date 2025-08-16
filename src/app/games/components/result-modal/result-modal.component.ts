@@ -5,11 +5,10 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'result-modal',
-  templateUrl: './result-modal.component.html',
-  styleUrls: ['./result-modal.component.scss'],
-  standalone: true,
-  imports: [IonTitle, IonContent, IonButton, CommonModule, TranslatePipe ],
+    selector: 'result-modal',
+    templateUrl: './result-modal.component.html',
+    styleUrls: ['./result-modal.component.scss'],
+    imports: [IonTitle, IonContent, IonButton, CommonModule, TranslatePipe]
 })
 export class ResultModalComponent {
   
